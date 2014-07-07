@@ -1,2 +1,2 @@
 <?php
-file_put_contents('1.txt', time());
+file_put_contents('./1.txt', time());
