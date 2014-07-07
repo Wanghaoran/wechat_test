@@ -4,7 +4,7 @@ $config = include_once('./config.php');
 //define your token
 define("TOKEN", $config['Wechat_Token']);
 $wechatObj = new wechatCallbackapiTest();
-$wechatObj -> valid();
+$wechatObj -> responseMsg();
 
 class wechatCallbackapiTest
 {
